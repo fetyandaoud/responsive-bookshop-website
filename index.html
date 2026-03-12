@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Book Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">UX</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </ul>
+        </aside>
+        <section class="books">
+            <h2>Available Books</h2>
+            <div class="book-grid">
+                <div class="book-card">
+                    <img src="book1.jpg" alt="Book Cover of 'Football Strategies' by Thomas Brolin">
+                    <h3>Football Strategies</h3>
+                    <p>Thomas Brolin</p>
+                    <p class="price">$20.00</p>
+                    <a href="cart.html">
+                        <button class="buy" aria-label="Add 'Football Strategies' by Thomas Brolin to cart">Buy</button>
+                    </a>
+                    
+                </div>
+                <div class="book-card">
+                    <img src="book2.jpg" alt="Book Cover of 'Striker Secrets' by Henrik Larsson">
+                    <h3>Striker Secrets</h3>
+                    <p>Henrik Larsson</p>
+                    <p class="price">$18.00</p>
+                    <a href="cart.html">
+                        <button class="buy" aria-label="Add 'Striker Secrets' by Henrik Larsson to cart">Buy</button>
+                    </a>
+                </div>
+                <div class="book-card">
+                    <img src="book3.jpeg" alt="Book Cover of 'Champion Mentality' by Zlatan Ibrahimovic">
+                    <h3>Champion Mentality</h3>
+                    <p>Zlatan Ibrahimovic</p>
+                    <p class="price">$25.00</p>
+                    <a href="cart.html">
+                        <button class="buy" aria-label="Add 'Champion Mentality' by Zlatan Ibrahimovic to cart">Buy</button>
+                    </a>
+                </div>
+            </div>
+            <section class="filters">
+                <h2>Filter & Sort</h2>
+                <div class="filter-grid">
+                    <div class="filter-section">
+                        <h3>By Price</h3>
+                        <ul>
+                            <li><a href="#">Under $10</a></li>
+                            <li><a href="#">$10 - $20</a></li>
+                            <li><a href="#">Over $20</a></li>
+                        </ul>
+                    </div>
+                    <div class="filter-section">
+                        <h3>By Author</h3>
+                        <ul>
+                            <li><a href="#">Author A</a></li>
+                            <li><a href="#">Author B</a></li>
+                            <li><a href="#">Author C</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+            
+    </main>
+    <footer>
+        <p>&copy; 2025 Book Store | All rights reserved | Contact: aaa@bookstore.com</p>
+    </footer>
+</body>
+</html>
